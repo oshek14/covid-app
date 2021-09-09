@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+}
+
+table th {
+  border: 1px solid grey;
+  padding: 12px 30px 12px 30px;
+  vertical-align: bottom;
+}
+
+table th .divider {
+  margin-top: 18px;
+}
+
+table td {
+  border: 1px solid grey;
+  padding: 0 30px;
+}
+
+table .header {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.divider span {
+  font-size: 12px;
+}
+
+.divider span:first-child {
+  padding-right: 6px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divider p:first-child {
+  padding-right: 24px;
+}

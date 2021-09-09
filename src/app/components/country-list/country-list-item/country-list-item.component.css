@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+}
+
+table th {
+  border: 1px solid grey;
+  padding: 10px 24px 10px 24px;
+  vertical-align: bottom;
+}
+
+table th .divider {
+  margin-top: 18px;
+}
+
+table td {
+  border: 1px solid grey;
+  padding: 0 24px;
+}
+
+table .header {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.divider span {
+  font-size: 12px;
+}
+
+.divider span:first-child {
+  padding-right: 6px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divider p:first-child {
+  padding-right: 20px;
+}
+
+.grey-paragraph {
+  font-size: 14px;
+  color: grey;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.desc-paragraph {
+  font-size: 14px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(34, 34, 34);
+}
